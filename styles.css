@@ -1,0 +1,68 @@
+body {
+    background-image: url(fondo.avif);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #bc2525;
+}
+
+h2 {
+    color: #bc2525;
+}
+
+p {
+    font-size: 18px;
+}
+
+button {
+    padding: 10px 50px;
+    font-size: 16px;
+    background: rgba(141, 42, 42, 0.7);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #e63939;
+}
+
+.hidden {
+    display: none;
+}
+
+#surprise {
+    margin-top: 20px;
+    color: #333;
+}
+
+#surpriseImage {
+    width: 300px; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduce el padding en pantallas más pequeñas */
+        font-size: 14px; /* Ajusta el tamaño de la fuente si es necesario */
+    }
+}
